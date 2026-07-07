@@ -1,3 +1,4 @@
+# test.py
 import os
 import torch
 from transformers import CLIPTokenizer, CLIPModel
