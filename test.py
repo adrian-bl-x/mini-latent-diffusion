@@ -1,8 +1,4 @@
 import os
-os.environ["HF_ENDPOINT"] = "https://hf-mirror.com"
-os.environ["CURL_CA_BUNDLE"] = ""
-os.environ["PYTHONHTTPSVERIFY"] = "0"
-
 import torch
 from transformers import CLIPTokenizer, CLIPModel
 from diffusers import AutoencoderKL
