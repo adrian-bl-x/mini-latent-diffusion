@@ -1,9 +1,4 @@
-# train.py
 import os
-os.environ["HF_ENDPOINT"] = "https://hf-mirror.com"
-os.environ["CURL_CA_BUNDLE"] = ""
-os.environ["PYTHONHTTPSVERIFY"] = "0"
-
 import torch
 import torch.nn.functional as F
 from torch.utils.data import DataLoader
